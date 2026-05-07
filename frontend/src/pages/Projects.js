@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://team-task-manager-production-fbe7.up.railway.app/api';
 
 function Projects() {
   const [projects, setProjects] = useState([]);
